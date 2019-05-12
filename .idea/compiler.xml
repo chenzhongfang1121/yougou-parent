@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou-zuul-gateway" />
+        <module name="basic-util" />
+        <module name="plat-interface" />
+        <module name="plat-service" />
+        <module name="yougou-eureka-server" />
+        <module name="yougou-zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aigou-plat-parent" target="1.8" />
+      <module name="aigou-zuul-gateway" target="1.8" />
+      <module name="basic-parent" target="1.8" />
+      <module name="basic-util" target="1.8" />
+      <module name="plat-interface" target="1.8" />
+      <module name="plat-service" target="1.8" />
+      <module name="yougou-eureka-server" target="1.8" />
+      <module name="yougou-parent" target="1.8" />
+      <module name="yougou-plat-parent" target="1.8" />
+      <module name="yougou-zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
