@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/yougou-parent.iml" filepath="$PROJECT_DIR$/yougou-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yougou-plat-parent/yougou-plat-parent.iml" filepath="$PROJECT_DIR$/yougou-plat-parent/yougou-plat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yougou-zuul-gateway/yougou-zuul-gateway.iml" filepath="$PROJECT_DIR$/yougou-zuul-gateway/yougou-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yougougou-config-server/yougougou-config-server.iml" filepath="$PROJECT_DIR$/yougougou-config-server/yougougou-config-server.iml" />
     </modules>
   </component>
 </project>

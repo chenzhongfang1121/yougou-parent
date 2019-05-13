@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/aigou-plat-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/yougou-config-server/pom.xml" />
       </set>
     </option>
   </component>

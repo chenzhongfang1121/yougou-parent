@@ -12,9 +12,11 @@
         <module name="plat-service" />
         <module name="yougou-eureka-server" />
         <module name="yougou-zuul-gateway" />
+        <module name="yougougou-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aigou-config-server" target="1.8" />
       <module name="aigou-plat-parent" target="1.8" />
       <module name="aigou-zuul-gateway" target="1.8" />
       <module name="basic-parent" target="1.8" />
@@ -25,6 +27,7 @@
       <module name="yougou-parent" target="1.8" />
       <module name="yougou-plat-parent" target="1.8" />
       <module name="yougou-zuul-gateway" target="1.8" />
+      <module name="yougougou-config-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
