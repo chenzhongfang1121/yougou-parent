@@ -3,7 +3,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka #注册到eureka
   instance:
-    instance-id: yougou-zuul-gateway-9527.com #为当前服务器添加实例的标识
+    instance-id: yougou-plat-9001.com #为当前服务器添加实例的标识
     prefer-ip-address: true
 #拉取配置
 spring:
@@ -11,7 +11,7 @@ spring:
       active: dev
   cloud:
     config:
-      name: application-zuul #github上面名称
+      name: application-plat #github上面名称
       profile: ${spring.profiles.active} #环境 java -jar -D xxx jar
       label: master #分支
       discovery:

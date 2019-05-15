@@ -1,7 +1,10 @@
 package cn.itsource.yougou.controller;
 
+import cn.itsource.yougou.domain.Employee;
+import cn.itsource.yougou.service.IEmployeeService;
 import cn.itsource.yougou.util.AjaxResult;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +13,9 @@ import java.util.Map;
 
 @RestController
 public class LoginController {
+
+    @Autowired
+    private IEmployeeService employeeService;
 
     /**
      * 前端使用vue，vue建议时间axios发送ajax请求
@@ -31,7 +37,10 @@ public class LoginController {
     public AjaxResult login(@RequestBody Map<String,Object> params){
         String username = (String)params.get("username");
         String password = (String)params.get("password");
-        if ("admin".equals(username) && "admin".equals(password)) {
+
+        Employee employee = employeeService.login(username, password);
+
+        if (employee!=null) {
             //登录成功
             return AjaxResult.me();
         } else {

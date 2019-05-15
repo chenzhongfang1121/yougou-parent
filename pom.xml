@@ -10,12 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>yougou-eureka-server</module>
-        <module>aigou-plat-parent</module>
         <module>yougou-plat-parent</module>
         <module>basic-parent</module>
-        <module>aigou-zuul-gateway</module>
-        <module>aigou-config-server</module>
         <module>yougougou-config-server</module>
+        <module>yougou-zuul-gateway</module>
     </modules>
 
     <properties>
